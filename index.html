@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kusi vai kusimuna</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kusi vai kusimuna</h1>
+        <div class="coin" id="coin">
+            <div class="heads">Kusi</div>
+            <div class="tails">Muna</div>
+        </div>
+        <button onclick="flipCoin()">Heitä kusta</button>
+        <p id="result"></p>
+        <h3>Flip History</h3>
+        <ul id="history"></ul>
+        <h3>Statistics</h3>
+        <p id="kusiPercentage">Kusi: 0%</p>
+        <p id="munaPercentage">Muna: 0%</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
